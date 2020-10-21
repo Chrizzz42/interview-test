@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview", "Interview.csproj", "{D6B897A5-645A-4ACE-9C74-2F3F187DCD6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{C94A1D57-9068-4138-97ED-A55DC36A50E3}"
+	ProjectSection(SolutionItems) = preProject
+		ConManager.cs = ConManager.cs
+		Convention.cs = Convention.cs
+		Participant.cs = Participant.cs
+		Talk.cs = Talk.cs
+		Talker.cs = Talker.cs
+		Venue.cs = Venue.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo", "Repo", "{315D1E06-8C1C-47F0-B41F-32FCC190AEC3}"
+	ProjectSection(SolutionItems) = preProject
+		BreweryVenueRepository.cs = BreweryVenueRepository.cs
+		ConventionRepository.cs = ConventionRepository.cs
+		IConventionRepository.cs = IConventionRepository.cs
+		IVenueRepository.cs = IVenueRepository.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B897A5-645A-4ACE-9C74-2F3F187DCD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B897A5-645A-4ACE-9C74-2F3F187DCD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B897A5-645A-4ACE-9C74-2F3F187DCD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B897A5-645A-4ACE-9C74-2F3F187DCD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {120E7597-F2A5-4F13-95BF-F4BAB00DE064}
+	EndGlobalSection
+EndGlobal
